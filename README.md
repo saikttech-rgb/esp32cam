@@ -212,7 +212,7 @@ http://192.168.4.1
 
 ```bash
 curl -u admin:admin http://192.168.4.1/status
-
+``` 
 Ответ:
 {
   "recording": false,
@@ -230,10 +230,11 @@ curl -u admin:admin http://192.168.4.1/status
 }
 
 🎨 Изменить качество видео
-
+```bash
 curl -u admin:admin -X POST http://192.168.4.1/control \
   -H "Content-Type: application/json" \
   -d '{"framesize": 9}'
+```
 
 Значения framesize:
 11 — QVGA (320×240)
@@ -247,30 +248,37 @@ curl -u admin:admin -X POST http://192.168.4.1/control \
 2 — UXGA (1600×1200)
 
 🏃 Включить режим детекции движения
-
+```bash
 curl -u admin:admin -X POST http://192.168.4.1/control \
   -H "Content-Type: application/json" \
   -d '{"mode": "motion"}'
+```
 
 Доступные режимы:
 "manual" — ручная запись по кнопке REC
 "motion" — автоматическая запись при движении
 
 🗑️ Удалить файл
+```bash
 curl -u admin:admin -X POST "http://192.168.4.1/delete?file=img_00001.jpg"
+```
 
 💾 Скачать файл
+```bash
 curl -u admin:admin -O "http://192.168.4.1/download?file=img_00001.jpg"
+```
 
 🎬 Старт/стоп записи (toggle)
+```bash
 curl -u admin:admin -X POST http://192.168.4.1/rec
-
+``` 
 Ответ:
 {"recording": true}
 
 🧹 Очистить все файлы
+```bash
 curl -u admin:admin -X POST http://192.168.4.1/format
-
+```
 Ответ:
 {
   "status": "cleared",
@@ -280,7 +288,7 @@ curl -u admin:admin -X POST http://192.168.4.1/format
 }
 
 ⚙️ Изменить несколько настроек одновременно
-
+```bash
 curl -u admin:admin -X POST http://192.168.4.1/control \
   -H "Content-Type: application/json" \
   -d '{
@@ -290,6 +298,7 @@ curl -u admin:admin -X POST http://192.168.4.1/control \
     "auto_delete": true,
     "auto_threshold": 90
   }'
+```
 
 💡 Советы по использованию API
 **Авторизация** — все запросы требуют заголовок Authorization: Basic YWRtaW46YWRtaW4= (base64 от admin:admin)
