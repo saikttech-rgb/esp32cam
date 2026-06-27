@@ -433,10 +433,10 @@ Email: sa.ikttech@example.com
 ---
 
 ## 🙏 Благодарности  
-Espressif Systems — за ESP32  
-Arduino Community — за Arduino IDE  
-ESP32 Camera Driver — за драйвер камеры  
-Всем контрибьюторам open-source проектов  
+**Espressif Systems** — за ESP32  
+**Arduino Community** — за Arduino IDE  
+**ESP32 Camera Driver** — за драйвер камеры  
+**Всем контрибьюторам open-source проектов  
 
 ---
 
