@@ -395,7 +395,62 @@ s->set_vflip(s, 1);    // Вертикальное отражение
 1
 ```
 
+--- 
 
+## 📄 Лицензия
+Этот проект распространяется под лицензией MIT License - см. файл LICENSE для подробностей.
+
+MIT License
+
+Copyright (c) 2026 sa
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+---
+
+## 👤 Автор
+dsaru   
+GitHub: @saikttech  
+Email: sa.ikttech@example.com   
+
+---
+
+## 🙏 Благодарности  
+Espressif Systems — за ESP32  
+Arduino Community — за Arduino IDE  
+ESP32 Camera Driver — за драйвер камеры  
+Всем контрибьюторам open-source проектов  
+
+---
+
+## ⚠️ Дисклеймер
+Этот проект предоставляется "КАК ЕСТЬ" без каких-либо гарантий. Автор не несёт ответственности за любой ущерб, возникший в результате использования данного программного обеспечения.
+Используйте responsibly и соблюдайте местные законы о видеонаблюдении и приватности.
+
+<div align="center">
+
+© dsaru 2026 | ESP32-CAM Hi-Tech Camera
+Сделано с ❤️ для сообщества IoT
+⭐ Если проект был полезен, поставьте звезду на GitHub! ⭐
+</div>
+```
 
 
 
