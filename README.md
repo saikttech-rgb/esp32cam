@@ -124,8 +124,6 @@
 git clone https://github.com/yourusername/esp32-cam-hitech-camera.git
 ```
 
-
-
 ---
 
 ## 📡 Использование
@@ -138,8 +136,9 @@ git clone https://github.com/yourusername/esp32-cam-hitech-camera.git
 
 2. **Откройте веб-браузер:**
 
+```html
 http://192.168.4.1
-
+``` 
 
 3. **Авторизуйтесь:**
 - Логин: `admin`
