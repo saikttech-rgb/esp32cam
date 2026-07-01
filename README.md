@@ -427,7 +427,7 @@ SOFTWARE.
 
 ## 👤 Автор
 dsaru   
-GitHub: @saikttech-rgb  
+GitHub: @saikttech  
 Email: sa.ikttech@example.com   
 
 ---
